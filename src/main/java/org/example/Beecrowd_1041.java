@@ -35,7 +35,6 @@ public class Beecrowd_1041 {
         else {
             System.out.println("Q4");
         }
-        leitor.close();
 
 
 
