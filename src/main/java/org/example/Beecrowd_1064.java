@@ -10,7 +10,7 @@ public class Beecrowd_1064 {
         Scanner leitor = new Scanner(System.in);
 
 
-        double num,media=0,receba = 0;
+        double num,media=0;
         int valores = 0;
 
         for (int i =0; i < 6; i++){

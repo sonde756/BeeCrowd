@@ -1,13 +1,13 @@
-package com.cursoUdemy;
+package org.example;
 
+import java.util.Locale;
 import java.util.Scanner;
 
-public class Main {
+public class Beecrowd_1154 {
     public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
 
         Scanner leitor = new Scanner(System.in);
-
-
 
         int a = leitor.nextInt();
 
@@ -25,10 +25,11 @@ public class Main {
 
         media = conta/count;
 
-        System.out.println(media);
-
+        System.out.printf("%.2f%n",media);
 
 
 
     }
 }
+
+
