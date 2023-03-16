@@ -1,9 +1,8 @@
 package com.cursoUdemy;
 
 import java.util.Scanner;
-import java.util.Vector;
 
-public class Main {
+public class resolvido_01 {
     public static void main(String[] args) {
 
         Scanner leitor = new Scanner(System.in);
@@ -12,17 +11,25 @@ public class Main {
 
         double[] a = new double[x];
 
+        double soma=0;
+
 
         for (int i = 0; i < x; i++) {
             a[i] = leitor.nextDouble();
         }
 
-        for (int i = 0; i < x ; i++) {
-
-            if (a[i] < 0){
-                System.out.println(a[i]);            }
+        for (int i = 0; i < x; i++) {
+            soma += a[i];
         }
 
+        for (double ab:a) {
+            System.out.print(ab+" ");
+        }
+
+
+        System.out.println("\n"+soma);
+
+        System.out.println(soma/4);
 
 
     }
