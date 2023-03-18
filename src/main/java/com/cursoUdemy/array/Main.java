@@ -1,4 +1,4 @@
-package com.cursoUdemy;
+package com.cursoUdemy.array;
 
 import java.util.Scanner;
 import java.util.Vector;

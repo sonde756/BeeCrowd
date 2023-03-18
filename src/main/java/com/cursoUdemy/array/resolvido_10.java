@@ -1,4 +1,4 @@
-package com.cursoUdemy;
+package com.cursoUdemy.array;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -6,6 +6,9 @@ import java.util.Scanner;
 public class resolvido_10 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
+
+
+
         Scanner leitor = new Scanner(System.in);
 
         int x = leitor.nextInt();
@@ -37,7 +40,6 @@ public class resolvido_10 {
         }
 
         double menor = altura[0];
-
         for (int j = 0; j < x ; j++) {
             if ( altura[j] < menor ){
                 menor = altura[j];
@@ -45,7 +47,7 @@ public class resolvido_10 {
 
 
 
-    }
+        }
 
         System.out.println("Maior altura = "+maior);
         System.out.println("Menor altura = "+menor);

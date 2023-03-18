@@ -1,4 +1,4 @@
-package com.cursoUdemy;
+package com.cursoUdemy.array;
 
 import java.util.Locale;
 import java.util.Scanner;
